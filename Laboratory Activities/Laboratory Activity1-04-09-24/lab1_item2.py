@@ -1,0 +1,8 @@
+char1,char2  = input("Enter two space-sperated character:").split()
+larger_char = max(char1, char2)
+print("----------------")
+print("The character with greater value is: " ,larger_char)
+print("----------------")
+print("Showing ASCII Vlaues: ")
+print("1: ", ord (char1))
+print("2: ", ord (char2))
